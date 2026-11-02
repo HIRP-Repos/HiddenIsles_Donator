@@ -1,25 +1,27 @@
-#define _ARMA_
-
+// ----------------------------------------------------------------------
+// Donator: dayton  (Dayton)
+// Textures: HIRP_Donator\donator\dayton\data\
+// Classnames are persistent (worn/stashed items, types.xml): never rename them.
+// ----------------------------------------------------------------------
 class CfgPatches
 {
-	class HiddenIsles_Donator_Retextures_Dayton
+	class HIRP_Donator_Dayton
 	{
-		units[] = {};
+		units[] = {"FOG_M50_Gasmask_Dayton"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"HiddenIsles_Donator_Retextures"};
+		requiredAddons[] = {"HIRP_Donator_Core","FOG_Masks_M50Gasmask"};
 	};
 };
-
 class CfgVehicles
 {
-    class FOG_M50_Gasmask_Base;
-
-    class FOG_M50_Gasmask_Dayton: FOG_M50_Gasmask_Base
+	// external base classes
+	class FOG_M50_Gasmask_Base;
+	class FOG_M50_Gasmask_Dayton: FOG_M50_Gasmask_Base
 	{
 		scope = 2;
-        displayName = "Dayton Mask";
-		descriptionShort = "[DONATOR ITEM]";
-		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\dayton\data\m50_Dayton_co.paa"};
+		displayName = "Dayton Mask";
+		descriptionShort = "[DONATOR ITEM] Dayton";
+		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\dayton\data\m50_dayton_co.paa"};
 	};
 };
