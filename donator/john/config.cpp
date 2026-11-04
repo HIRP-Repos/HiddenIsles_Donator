@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: john  (John Callahan)
-// Textures: HIRP_Donator\donator\john\data\
+// Textures: HiddenIsles_Donator\donator\john\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Helmet Of A Thousand Miles";
 		descriptionShort = "[DONATOR ITEM] John Callahan";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\john\data\motohelmet_john.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\john\data\motohelmet_john.paa"};
 	};
 };

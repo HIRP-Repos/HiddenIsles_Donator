@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: kaine  (Elias Kaine)
-// Textures: HIRP_Donator\donator\kaine\data\
+// Textures: HiddenIsles_Donator\donator\kaine\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -31,21 +31,21 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Iron Ridge Flag";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\flag_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\flag_kaine.paa"};
 	};
 	class HiddenIsles_Donator_kaineBigPatch: FOG_Big_Patch_Base
 	{
 		scope = 2;
 		displayName = "Iron Ridge Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\bigpatch_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\bigpatch_kaine.paa"};
 	};
 	class HiddenIsles_Donator_kaineSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "Iron Ridge Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\smallpatch_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\smallpatch_kaine.paa"};
 	};
 	class HiddenIsles_Donator_FASTMTKaine: FOG_Helmet_FASTMT_Base
 	{
@@ -53,7 +53,7 @@ class CfgVehicles
 		displayName = "Kaine's Fast MT Super HighCut Helmet";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo_acc","camo_helmet"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_fastmt_arcrails_co.paa","HIRP_Donator\donator\kaine\data\kaine_fastmt_helmet_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_fastmt_arcrails_co.paa","HiddenIsles_Donator\donator\kaine\data\kaine_fastmt_helmet_co.paa"};
 	};
 	class HiddenIsles_Donator_MandableKaine: FOG_FastMT_Mandable_Base
 	{
@@ -61,7 +61,7 @@ class CfgVehicles
 		displayName = "Kaine's Fast MT Mandible";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_fastmt_helmet_man_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_fastmt_helmet_man_co.paa"};
 	};
 	class HiddenIsles_Donator_OspreyKaine: FOG_Vest_Osprey_Grey
 	{
@@ -69,7 +69,7 @@ class CfgVehicles
 		displayName = "Kaine's CQC Osprey MK4A";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo_radiopouch","camo_vest"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_radioptt_co.paa","HIRP_Donator\donator\kaine\data\kaine_osprey_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_radioptt_co.paa","HiddenIsles_Donator\donator\kaine\data\kaine_osprey_co.paa"};
 	};
 	class HiddenIsles_Donator_G3ShirtKaine: FOG_Crye_G3_Shirt_Black
 	{
@@ -77,7 +77,7 @@ class CfgVehicles
 		displayName = "Kaine's Crye G3 Combat Shirt";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo","cuffs","personality"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_g3_combatshirt_co.paa","FOG_MOD\Clothes\Shirts\FOG_Crye_G3Shirt\Data\cuffs_blk_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_g3_combatshirt_co.paa","FOG_MOD\Clothes\Shirts\FOG_Crye_G3Shirt\Data\cuffs_blk_co.paa"};
 	};
 	class HiddenIsles_Donator_G3PantsKaine: FOG_Pants_Crye_G3_Black
 	{
@@ -85,7 +85,7 @@ class CfgVehicles
 		displayName = "Kaine's Crye G3 Combat Pants";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo_belt","camo_pants"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_g3_belt_co.paa","HIRP_Donator\donator\kaine\data\kaine_g3_combatpants_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_g3_belt_co.paa","HiddenIsles_Donator\donator\kaine\data\kaine_g3_combatpants_co.paa"};
 	};
 	class HiddenIsles_Donator_LBootsKaine: FOG_Lerch_Boots_ColorBase
 	{
@@ -93,7 +93,7 @@ class CfgVehicles
 		displayName = "Kaine's Lerch Boots";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_lerchboots_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_lerchboots_co.paa"};
 	};
 	class HiddenIsles_Donator_ArcteryxLEAFKaine: FOG_Bag_ArcteryxLEAF_ColorBase
 	{
@@ -101,6 +101,6 @@ class CfgVehicles
 		displayName = "Kaine's Arcteryx LEAF Rucksack";
 		descriptionShort = "[DONATOR ITEM] Elias Kaine";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\kaine\data\kaine_arcteryx_leaf_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\kaine\data\kaine_arcteryx_leaf_co.paa"};
 	};
 };

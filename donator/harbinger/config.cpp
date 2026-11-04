@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: harbinger  (John Dex Adams)
-// Textures: HIRP_Donator\donator\harbinger\data\
+// Textures: HiddenIsles_Donator\donator\harbinger\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -24,6 +24,6 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] John Dex Adams";
 		itemsCargoSize[] = {6,5};
 		itemSize[] = {2,2};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\harbinger\data\skinny_jeans_harbinger.paa","HIRP_Donator\donator\_shared\data\skein_ca.paa","HIRP_Donator\donator\_shared\data\skein2_ca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\harbinger\data\skinny_jeans_harbinger.paa","HiddenIsles_Donator\donator\_shared\data\skein_ca.paa","HiddenIsles_Donator\donator\_shared\data\skein2_ca.paa"};
 	};
 };

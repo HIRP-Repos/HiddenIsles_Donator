@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: blacktide  (Black Tide PMC / Cal, Black Tide PMC / Kaine)
-// Textures: HIRP_Donator\donator\blacktide\data\
+// Textures: HiddenIsles_Donator\donator\blacktide\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -30,62 +30,62 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Blacktide Flag";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Cal";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\flag_blacktide.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\flag_blacktide.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Blacktide Armband";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Cal";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\upgradedarmband_blacktide.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\upgradedarmband_blacktide.paa"};
 	};
 	class HiddenIsles_Donator_GhostMask_Blacktide: FOG_Ghost_Mask_Black
 	{
 		scope = 2;
 		displayName = "Blacktide Ghost Mask";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\kaine_ghostmask_balcalava.paa","HIRP_Donator\donator\blacktide\data\kaine_ghostmask.paa","HIRP_Donator\donator\blacktide\data\kaine_ghostmask.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\kaine_ghostmask_balcalava.paa","HiddenIsles_Donator\donator\blacktide\data\kaine_ghostmask.paa","HiddenIsles_Donator\donator\blacktide\data\kaine_ghostmask.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideShirt: FOG_Crye_G3_Shirt_Black
 	{
 		scope = 2;
 		displayName = "Blacktide G3 Shirt";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_crye_g3_shirt_kaine.paa","HIRP_Donator\donator\blacktide\data\b4m_crye_g3_shirt_cuffs_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_crye_g3_shirt_kaine.paa","HiddenIsles_Donator\donator\blacktide\data\b4m_crye_g3_shirt_cuffs_kaine.paa"};
 	};
 	class HiddenIsles_Donator_BlacktidePants: FOG_Gorka_Pants_ColorBase
 	{
 		scope = 2;
 		displayName = "Blacktide Gorka Pants";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_gorka_pants_kaine.paa","HIRP_Donator\donator\blacktide\data\b4m_gorka_pants_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_gorka_pants_kaine.paa","HiddenIsles_Donator\donator\blacktide\data\b4m_gorka_pants_kaine.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideHelmet: FOG_Helmet_HGU56_Black
 	{
 		scope = 2;
 		displayName = "Blacktide HGU56 Helmet";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_helmet_hgu56_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_helmet_hgu56_kaine.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideSniperHood: FOG_SniperHood_Black
 	{
 		scope = 2;
 		displayName = "Blacktide Sniper Hood";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_sniperhood_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_sniperhood_kaine.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideGloves: FOG_MechanixGloves_Black
 	{
 		scope = 2;
 		displayName = "Blacktide Gloves";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_mechanixgloves_kaine.paa","HIRP_Donator\donator\blacktide\data\b4m_mechanixgloves_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_mechanixgloves_kaine.paa","HiddenIsles_Donator\donator\blacktide\data\b4m_mechanixgloves_kaine.paa"};
 	};
 	class HiddenIsles_Donator_BlacktideShoes: FOG_XAForces_Shoes_Black
 	{
 		scope = 2;
 		displayName = "Blacktide XA Forces";
 		descriptionShort = "[DONATOR ITEM] Black Tide PMC / Kaine";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\blacktide\data\b4m_xaforces_shoes_kaine.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\blacktide\data\b4m_xaforces_shoes_kaine.paa"};
 	};
 };

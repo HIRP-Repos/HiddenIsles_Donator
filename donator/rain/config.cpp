@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: rain  (Rain Williams, Honeypot / Rain)
-// Textures: HIRP_Donator\donator\rain\data\
+// Textures: HiddenIsles_Donator\donator\rain\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -32,14 +32,14 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Rain Williams";
 		itemsCargoSize[] = {5,4};
 		visibilityModifier = 0.9;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\leggings_rain.paa","HIRP_Donator\donator\rain\data\leggings_rain.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\leggings_rain.paa","HiddenIsles_Donator\donator\rain\data\leggings_rain.paa"};
 	};
 	class HiddenIsles_Donator_LeatherLeggingsRain: ALV_LeatherLeggings_Black
 	{
 		scope = 2;
 		displayName = "Rain's Leggings";
 		descriptionShort = "[DONATOR ITEM] Rain Williams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\leatherleggings_rain.paa","HIRP_Donator\donator\_shared\data\pads_black_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\leatherleggings_rain.paa","HiddenIsles_Donator\donator\_shared\data\pads_black_co.paa"};
 	};
 	class HiddenIsles_Donator_Shabby_Hoodie_Rain: Shabby_Hoodie_ColorBase
 	{
@@ -48,55 +48,55 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Rain Williams";
 		itemsCargoSize[] = {6,5};
 		itemSize[] = {3,2};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\shabby_hoodie_rain.paa","HIRP_Donator\donator\_shared\data\skein_black.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\shabby_hoodie_rain.paa","HiddenIsles_Donator\donator\_shared\data\skein_black.paa"};
 	};
 	class HiddenIsles_Donator_HeavyRidersJacket_Rain: FOG_HeavyRiders_Jacket_Black
 	{
 		scope = 2;
 		displayName = "The Honeypot Heavy Riders Jacket";
 		descriptionShort = "[DONATOR ITEM] Rain Williams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\fog_heavyrider_rain.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\fog_heavyrider_rain.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotBigPatch: FOG_Big_Patch_Base
 	{
 		scope = 2;
 		displayName = "Honeypot Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\bigpatch_honeypot.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\bigpatch_honeypot.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "Honeypot Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\smallpatch_honeypot.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\smallpatch_honeypot.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotALVPatch: ALV_Patch_USA
 	{
 		scope = 2;
 		displayName = "Honeypot ALV Patch";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\patch_honeypot.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\patch_honeypot.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Honeypot Flag";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\flag_honeypot.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\flag_honeypot.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotFlag2: Flag_White
 	{
 		scope = 2;
 		displayName = "The Honeypot Flag";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\flag_honeypot2.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\flag_honeypot2.paa"};
 	};
 	class HiddenIsles_Donator_HoneypotArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "The Honeypot Armband";
 		descriptionShort = "[DONATOR ITEM] Honeypot / Rain";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rain\data\upgradedarmband_honeypot.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rain\data\upgradedarmband_honeypot.paa"};
 	};
 };

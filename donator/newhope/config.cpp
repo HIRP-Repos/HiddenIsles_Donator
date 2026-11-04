@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: newhope  (Hank, Jester, Pillow, Rat, Six, Sweets, New Hope)
-// Textures: HIRP_Donator\donator\newhope\data\
+// Textures: HiddenIsles_Donator\donator\newhope\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -25,62 +25,62 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Hank's Face Mask";
 		descriptionShort = "[DONATOR ITEM] Hank";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_hank.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_hank.paa"};
 	};
 	class HiddenIsles_Donator_JesterFaceMask: FOG_HalfMask_Black
 	{
 		scope = 2;
 		displayName = "Jester's Face Mask";
 		descriptionShort = "[DONATOR ITEM] Jester";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_jester.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_jester.paa"};
 	};
 	class HiddenIsles_Donator_PillowFaceMask: FOG_HalfMask_Black
 	{
 		scope = 2;
 		displayName = "Pillow's Face Mask";
 		descriptionShort = "[DONATOR ITEM] Pillow";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_pillow.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_pillow.paa"};
 	};
 	class HiddenIsles_Donator_RatFaceMask: FOG_HalfMask_Black
 	{
 		scope = 2;
 		displayName = "Rat's Face Mask";
 		descriptionShort = "[DONATOR ITEM] Rat";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_rat.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_rat.paa"};
 	};
 	class HiddenIsles_Donator_SixFaceMask: FOG_HalfMask_Black
 	{
 		scope = 2;
 		displayName = "Six's Face Mask";
 		descriptionShort = "[DONATOR ITEM] Six";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_six.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_six.paa"};
 	};
 	class HiddenIsles_Donator_SweetsFaceMask: FOG_HalfMask_Black
 	{
 		scope = 2;
 		displayName = "Sweets' Face Mask";
 		descriptionShort = "[DONATOR ITEM] Sweets";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\halfmask_sweets.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\halfmask_sweets.paa"};
 	};
 	class HiddenIsles_Donator_NewHopeFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "New Hope Flag";
 		descriptionShort = "[DONATOR ITEM] New Hope";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\flag_newhope.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\flag_newhope.paa"};
 	};
 	class HiddenIsles_Donator_NewHopeArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "New Hope's Armband";
 		descriptionShort = "[DONATOR ITEM] New Hope";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\upgradedarmband_newhope.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\upgradedarmband_newhope.paa"};
 	};
 	class HiddenIsles_Donator_SweetsDress: NurseDress_White
 	{
 		scope = 2;
 		displayName = "Sweets Dress";
 		descriptionShort = "[DONATOR ITEM] Sweets";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newhope\data\sweetsnursedress.paa","HIRP_Donator\donator\newhope\data\sweetsnursedress.paa","HIRP_Donator\donator\newhope\data\sweetsnursedress.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newhope\data\sweetsnursedress.paa","HiddenIsles_Donator\donator\newhope\data\sweetsnursedress.paa","HiddenIsles_Donator\donator\newhope\data\sweetsnursedress.paa"};
 	};
 };

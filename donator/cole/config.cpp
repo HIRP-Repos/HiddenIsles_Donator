@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: cole  (Cole Tracy)
-// Textures: HIRP_Donator\donator\cole\data\
+// Textures: HiddenIsles_Donator\donator\cole\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -27,41 +27,41 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Cole's Gorka Pants";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\spetsnaz_pants_cole.paa","HIRP_Donator\donator\cole\data\spetsnaz_pants_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\spetsnaz_pants_cole.paa","HiddenIsles_Donator\donator\cole\data\spetsnaz_pants_cole.paa"};
 	};
 	class HiddenIsles_Donator_ColeJacket: FOG_Gorka_Jacket_Black
 	{
 		scope = 2;
 		displayName = "Cole's Gorka Jacket";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\spetsnaz_shirt_cole.paa","HIRP_Donator\donator\cole\data\spetsnaz_shirt_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\spetsnaz_shirt_cole.paa","HiddenIsles_Donator\donator\cole\data\spetsnaz_shirt_cole.paa"};
 	};
 	class HiddenIsles_Donator_ColeVest: FOG_Vest_Gen4_Black
 	{
 		scope = 2;
 		displayName = "Cole's Gen4 Vest";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\gen4_cole.paa","HIRP_Donator\donator\cole\data\gen4_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\gen4_cole.paa","HiddenIsles_Donator\donator\cole\data\gen4_cole.paa"};
 	};
 	class HiddenIsles_Donator_ColeGloves: FOG_GunGloves_Black
 	{
 		scope = 2;
 		displayName = "Cole's Gun Gloves";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\gunglove_cole.paa","HIRP_Donator\donator\cole\data\gunglove_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\gunglove_cole.paa","HiddenIsles_Donator\donator\cole\data\gunglove_cole.paa"};
 	};
 	class HiddenIsles_Donator_ColeBag: FOG_Bag_6ShBagT_Black
 	{
 		scope = 2;
 		displayName = "Cole's Backpack";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\6sh118t_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\6sh118t_cole.paa"};
 	};
 	class HiddenIsles_Donator_ColeMask: SFP_TacticalMask_Base
 	{
 		scope = 2;
 		displayName = "Cole's Tactical Mask";
 		descriptionShort = "[DONATOR ITEM] Cole Tracy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\cole\data\tacticalmask_cole.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\cole\data\tacticalmask_cole.paa"};
 	};
 };

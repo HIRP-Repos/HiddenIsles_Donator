@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: trackyourtrauma  (trackyourtrauma)
-// Textures: HIRP_Donator\donator\trackyourtrauma\data\
+// Textures: HiddenIsles_Donator\donator\trackyourtrauma\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Track Your Trauma Hoodie";
 		descriptionShort = "A heavily worn, dirty and bloodstained hoodie.";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\trackyourtrauma\data\dirty_hoodie_co.paa","HIRP_Donator\donator\_shared\data\skein_grey_ca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\trackyourtrauma\data\dirty_hoodie_co.paa","HiddenIsles_Donator\donator\_shared\data\skein_grey_ca.paa"};
 	};
 	class FENR_TrackYourTrauma_Jeans: Jeans_ColorBase
 	{
 		scope = 2;
 		displayName = "Track Your Trauma Jeans";
 		descriptionShort = "Grey jeans with grime and dried bloodstains.";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa","HIRP_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa","HIRP_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa","HiddenIsles_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa","HiddenIsles_Donator\donator\trackyourtrauma\data\jeans_grey_co.paa"};
 	};
 };

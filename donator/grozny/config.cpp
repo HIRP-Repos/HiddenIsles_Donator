@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: grozny  (Grozny Battalion, Grozny)
-// Textures: HIRP_Donator\donator\grozny\data\
+// Textures: HiddenIsles_Donator\donator\grozny\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -24,20 +24,20 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Grozny Battalion Flag";
 		descriptionShort = "[DONATOR ITEM] Grozny Battalion";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\grozny\data\flag_grozny.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\grozny\data\flag_grozny.paa"};
 	};
 	class HiddenIsles_Donator_GroznyBigPatch: FOG_Big_Patch_Base
 	{
 		scope = 2;
 		displayName = "Grozny Battalion Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Grozny Battalion";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\grozny\data\bigpatch_grozny.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\grozny\data\bigpatch_grozny.paa"};
 	};
 	class HiddenIsles_Donator_GroznyArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Grozny's Armband";
 		descriptionShort = "[DONATOR ITEM] Grozny";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\grozny\data\upgradedarmband_grozny.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\grozny\data\upgradedarmband_grozny.paa"};
 	};
 };

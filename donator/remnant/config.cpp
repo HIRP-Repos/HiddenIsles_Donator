@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: remnant  (Remnant)
-// Textures: HIRP_Donator\donator\remnant\data\
+// Textures: HiddenIsles_Donator\donator\remnant\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Remnant Flag";
 		descriptionShort = "[DONATOR ITEM] Remnant";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\remnant\data\flag_remnant.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\remnant\data\flag_remnant.paa"};
 	};
 	class HiddenIsles_Donator_RemanantArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Remnant's Armband";
 		descriptionShort = "[DONATOR ITEM] Remnant";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\remnant\data\upgradedarmband_remnant.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\remnant\data\upgradedarmband_remnant.paa"};
 	};
 };

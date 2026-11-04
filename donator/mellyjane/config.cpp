@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: mellyjane  (Mellyjane)
-// Textures: HIRP_Donator\donator\mellyjane\data\
+// Textures: HiddenIsles_Donator\donator\mellyjane\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -26,14 +26,14 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Mellyjane Armband";
 		descriptionShort = "[DONATOR ITEM] Mellyjane";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\mellyjane\data\armband_mellyjane_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\mellyjane\data\armband_mellyjane_co.paa"};
 	};
 	class HiddenIsles_Donator_MellyjaneFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Mellyjane Flag";
 		descriptionShort = "[DONATOR ITEM] Mellyjane";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\mellyjane\data\flag_mellyjane_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\mellyjane\data\flag_mellyjane_co.paa"};
 	};
 	class HiddenIsles_Donator_MellyjaneGloves: FOG_MechanixGloves_ColorBase
 	{
@@ -41,20 +41,20 @@ class CfgVehicles
 		displayName = "Mellyjane Gloves";
 		descriptionShort = "[DONATOR ITEM] Mellyjane";
 		visibilityModifier = 0.8;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\mellyjane\data\glove_mellyjane.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\mellyjane\data\glove_mellyjane.paa"};
 	};
 	class HiddenIsles_Donator_MellyjaneDuster: ALV_Duster_Colorbase
 	{
 		scope = 2;
 		displayName = "Mellyjane Duster";
 		descriptionShort = "[DONATOR ITEM] Mellyjane";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\mellyjane\data\duster_mellyjane.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\mellyjane\data\duster_mellyjane.paa"};
 	};
 	class HiddenIsles_Donator_MellyjaneBag: FOG_Bag_BlackJack_ColorBase
 	{
 		scope = 2;
 		displayName = "Mellyjane Bag";
 		descriptionShort = "[DONATOR ITEM] Mellyjane";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\mellyjane\data\mysterybag_mellyjane.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\mellyjane\data\mysterybag_mellyjane.paa"};
 	};
 };

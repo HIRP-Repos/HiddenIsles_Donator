@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: tommy  (Tommy)
-// Textures: HIRP_Donator\donator\tommy\data\
+// Textures: HiddenIsles_Donator\donator\tommy\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -25,7 +25,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Tommy's Helmet";
 		descriptionShort = "[DONATOR ITEM] Tommy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\tommy\data\motohelm_tommy.paa","dz\characters\headgear\data\motohelmetvisor_dark_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\tommy\data\motohelm_tommy.paa","dz\characters\headgear\data\motohelmetvisor_dark_co.paa"};
 	};
 	class HiddenIsles_Donator_TommyMotoHelm2: DarkMotoHelmet_YellowScarred
 	{
@@ -33,7 +33,7 @@ class CfgVehicles
 		displayName = "Tommy's Helmet with Nails";
 		descriptionShort = "[DONATOR ITEM] Tommy";
 		itemSize[] = {2,2};
-		hiddenSelectionsTextures[] = {"dz\characters\headgear\data\motohelmetvisor_dark_co.paa","dz\characters\headgear\data\motohelmetvisor_scarred_co.paa","HIRP_Donator\donator\tommy\data\motohelm_tommy.paa","HIRP_Donator\donator\tommy\data\motohelm_tommy.paa"};
+		hiddenSelectionsTextures[] = {"dz\characters\headgear\data\motohelmetvisor_dark_co.paa","dz\characters\headgear\data\motohelmetvisor_scarred_co.paa","HiddenIsles_Donator\donator\tommy\data\motohelm_tommy.paa","HiddenIsles_Donator\donator\tommy\data\motohelm_tommy.paa"};
 	};
 	class HiddenIsles_Donator_TommyJacket: FOG_Shirt_UrbanUtilityJacket_Black
 	{
@@ -41,13 +41,13 @@ class CfgVehicles
 		displayName = "Tommy's Jacket";
 		descriptionShort = "[DONATOR ITEM] Tommy";
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\tommy\data\urban_utility_jacket_dark_tommy.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\tommy\data\urban_utility_jacket_dark_tommy.paa"};
 	};
 	class HiddenIsles_Donator_TommyJacketHeavyRiders: FOG_HeavyRiders_Jacket_Black
 	{
 		scope = 2;
 		displayName = "Tommy's Heavy Rider Jacket";
 		descriptionShort = "[DONATOR ITEM] Tommy";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\tommy\data\fog_heavyrider_tommy.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\tommy\data\fog_heavyrider_tommy.paa"};
 	};
 };

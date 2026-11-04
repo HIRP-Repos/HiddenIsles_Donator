@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: obsidianguard  (Obsidian Guard)
-// Textures: HIRP_Donator\donator\obsidianguard\data\
+// Textures: HiddenIsles_Donator\donator\obsidianguard\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,14 +23,14 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Obsidian Armband";
 		descriptionShort = "[DONATOR ITEM] Obsidian Guard";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
-		hiddenSelectionsMaterial[] = {"HIRP_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
+		hiddenSelectionsMaterial[] = {"HiddenIsles_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
 	};
 	class HiddenIsles_Donator_ObsidianFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Obsidian Flag";
 		descriptionShort = "[DONATOR ITEM] Obsidian Guard";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\obsidianguard\data\flag_obsidian_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\obsidianguard\data\flag_obsidian_co.paa"};
 	};
 };

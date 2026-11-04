@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: rebecca  (Rebecca Hawthorne)
-// Textures: HIRP_Donator\donator\rebecca\data\
+// Textures: HiddenIsles_Donator\donator\rebecca\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -27,41 +27,41 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Rebecca's Pants";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rebecca\data\g99_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rebecca\data\g99_rebecca.paa"};
 	};
 	class HiddenIsles_Donator_RebeccaJacket: FOG_Jacket_ArcteryxGryphon_Black
 	{
 		scope = 2;
 		displayName = "Rebecca's Jacket";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rebecca\data\arcteryx_gryphon_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rebecca\data\arcteryx_gryphon_rebecca.paa"};
 	};
 	class HiddenIsles_Donator_RebeccaBag: FOG_Bergen_Rucksack_Black
 	{
 		scope = 2;
 		displayName = "Rebecca's Rucksack";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rebecca\data\bergen_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rebecca\data\bergen_rebecca.paa"};
 	};
 	class HiddenIsles_Donator_RebeccaGloves: FOG_WinterGloves_White
 	{
 		scope = 2;
 		displayName = "Rebecca's Gloves";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rebecca\data\wintergloves_rebecca.paa","HIRP_Donator\donator\rebecca\data\wintergloves_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rebecca\data\wintergloves_rebecca.paa","HiddenIsles_Donator\donator\rebecca\data\wintergloves_rebecca.paa"};
 	};
 	class HiddenIsles_Donator_RebeccaVest: FOG_Vest_TV110T_Black
 	{
 		scope = 2;
 		displayName = "Rebecca's Vest";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\rebecca\data\fog_tv110_rebecca.paa","HIRP_Donator\donator\rebecca\data\fog_tv110_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\rebecca\data\fog_tv110_rebecca.paa","HiddenIsles_Donator\donator\rebecca\data\fog_tv110_rebecca.paa"};
 	};
 	class HiddenIsles_Donator_GhostMask_Rebecca: FOG_Ghost_Mask_Black
 	{
 		scope = 2;
 		displayName = "Rebecca's Mask";
 		descriptionShort = "[DONATOR ITEM] Rebecca Hawthorne";
-		hiddenSelectionsTextures[] = {"FOG_MOD\Gear\Masks\Ghost_Mask_New\data\balaclava_black_co.paa","HIRP_Donator\donator\rebecca\data\skullmask_rebecca.paa","HIRP_Donator\donator\rebecca\data\skullmask_rebecca.paa"};
+		hiddenSelectionsTextures[] = {"FOG_MOD\Gear\Masks\Ghost_Mask_New\data\balaclava_black_co.paa","HiddenIsles_Donator\donator\rebecca\data\skullmask_rebecca.paa","HiddenIsles_Donator\donator\rebecca\data\skullmask_rebecca.paa"};
 	};
 };

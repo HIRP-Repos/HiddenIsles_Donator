@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: boone  (Boone)
-// Textures: HIRP_Donator\donator\boone\data\
+// Textures: HiddenIsles_Donator\donator\boone\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -28,41 +28,41 @@ class CfgVehicles
 		displayName = "Boone's Plate Carrier";
 		descriptionShort = "[DONATOR ITEM] Boone";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\platecarriervest_boone.paa","HIRP_Donator\donator\boone\data\platecarriervest_boone.paa","HIRP_Donator\donator\boone\data\platecarriervest_boone.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\platecarriervest_boone.paa","HiddenIsles_Donator\donator\boone\data\platecarriervest_boone.paa","HiddenIsles_Donator\donator\boone\data\platecarriervest_boone.paa"};
 	};
 	class HiddenIsles_Donator_BooneFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Bangers & Bangers Flag";
 		descriptionShort = "[DONATOR ITEM] Boone";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\flag_bangers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\flag_bangers.paa"};
 	};
 	class HiddenIsles_Donator_BooneArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Bangers & Bangers Armband";
 		descriptionShort = "[DONATOR ITEM] Boone";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\upgradedarmband_bangers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\upgradedarmband_bangers.paa"};
 	};
 	class HiddenIsles_Donator_BooneALVPatch: ALV_Patch_USA
 	{
 		scope = 2;
 		displayName = "Bangers & Bangers ALV Patch";
 		descriptionShort = "[DONATOR ITEM] Boone";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\patch_bangers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\patch_bangers.paa"};
 	};
 	class HiddenIsles_Donator_BooneBigPatch: FOG_Big_Patch_Base
 	{
 		scope = 2;
 		displayName = "Bangers & Bangers Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Boone";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\bigpatch_bangers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\bigpatch_bangers.paa"};
 	};
 	class HiddenIsles_Donator_BooneSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "Bangers & Bangers Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Boone";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\boone\data\smallpatch_bangers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\boone\data\smallpatch_bangers.paa"};
 	};
 };

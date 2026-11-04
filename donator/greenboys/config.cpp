@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: greenboys  (Greenboys)
-// Textures: HIRP_Donator\donator\greenboys\data\
+// Textures: HiddenIsles_Donator\donator\greenboys\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Green Boys Armband";
 		descriptionShort = "[DONATOR ITEM] Greenboys";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\greenboys\data\upgradedarmband_greenboys.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\greenboys\data\upgradedarmband_greenboys.paa"};
 	};
 	class HiddenIsles_Donator_GreenboysFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Green Boys Flag";
 		descriptionShort = "[DONATOR ITEM] Greenboys";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\greenboys\data\flag_greenboys.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\greenboys\data\flag_greenboys.paa"};
 	};
 };

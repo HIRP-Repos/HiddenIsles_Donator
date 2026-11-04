@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: ubici  (Ubici)
-// Textures: HIRP_Donator\donator\ubici\data\
+// Textures: HiddenIsles_Donator\donator\ubici\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -34,49 +34,49 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Ubici Armband";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\upgradedarmband_ubici.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\upgradedarmband_ubici.paa"};
 	};
 	class HiddenIsles_Donator_UbiciFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Ubici Flag";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\flag_ubici.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\flag_ubici.paa"};
 	};
 	class HiddenIsles_Donator_Ubici_PantsGreen: FOG_UFP_Pants_Urban
 	{
 		scope = 2;
 		displayName = "Ubici UFP Pants";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"FOG_MOD\Clothes\Pants\FOG_Crye_G3Pants\Data\G3_Belt_Black_co.paa","FOG_MOD\Clothes\Pants\Urban_Fighter_pants\data\hero_kneepad_black_co.paa","HIRP_Donator\donator\ubici\data\ufp_black_ubici.paa"};
+		hiddenSelectionsTextures[] = {"FOG_MOD\Clothes\Pants\FOG_Crye_G3Pants\Data\G3_Belt_Black_co.paa","FOG_MOD\Clothes\Pants\Urban_Fighter_pants\data\hero_kneepad_black_co.paa","HiddenIsles_Donator\donator\ubici\data\ufp_black_ubici.paa"};
 	};
 	class HiddenIsles_Donator_UbiciJacketGreen: FOG_Jacket_ArcteryxGryphon_Black
 	{
 		scope = 2;
 		displayName = "Ubici's Arcteryx Jacket";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\arcteryx_gryphon_ubici.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\arcteryx_gryphon_ubici.paa"};
 	};
 	class HiddenIsles_Donator_Ubici_PantsGrey: FOG_UFP_Pants_Urban
 	{
 		scope = 2;
 		displayName = "Ubici UFP Pants";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"FOG_MOD\Clothes\Pants\FOG_Crye_G3Pants\Data\G3_Belt_Black_co.paa","FOG_MOD\Clothes\Pants\Urban_Fighter_pants\data\hero_kneepad_black_co.paa","HIRP_Donator\donator\ubici\data\ubicipantsgrey.paa"};
+		hiddenSelectionsTextures[] = {"FOG_MOD\Clothes\Pants\FOG_Crye_G3Pants\Data\G3_Belt_Black_co.paa","FOG_MOD\Clothes\Pants\Urban_Fighter_pants\data\hero_kneepad_black_co.paa","HiddenIsles_Donator\donator\ubici\data\ubicipantsgrey.paa"};
 	};
 	class HiddenIsles_Donator_UbiciJacketGrey: FOG_Jacket_ArcteryxGryphon_Black
 	{
 		scope = 2;
 		displayName = "Ubici's Arcteryx Jacket";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\ubicishirtgrey.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\ubicishirtgrey.paa"};
 	};
 	class HiddenIsles_Donator_UbiciVest: FOG_Vest_MMAC_CB
 	{
 		scope = 2;
 		displayName = "Ubici's MMAC Vest";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\mmac_black_co_olive.paa","HIRP_Donator\donator\ubici\data\mmac_black_co_olive.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\mmac_black_co_olive.paa","HiddenIsles_Donator\donator\ubici\data\mmac_black_co_olive.paa"};
 	};
 	class HiddenIsles_Donator_UbiciHeadgear: GorkaHelmet_Green
 	{
@@ -84,14 +84,14 @@ class CfgVehicles
 		displayName = "Ubici's Gorka Helmet";
 		descriptionShort = "[DONATOR ITEM] Ubici";
 		visibilityModifier = 0.69999999;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\maska_co_olive.paa","HIRP_Donator\donator\ubici\data\maska_co_olive.paa","HIRP_Donator\donator\ubici\data\maska_co_olive.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\maska_co_olive.paa","HiddenIsles_Donator\donator\ubici\data\maska_co_olive.paa","HiddenIsles_Donator\donator\ubici\data\maska_co_olive.paa"};
 	};
 	class HiddenIsles_Donator_UbiciAdminPouch: FOG_Pouch_Admin_Small_RG
 	{
 		scope = 2;
 		displayName = "Ubici's Admin Pouch";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\pouch_small_ronin_black_co_olive.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\pouch_small_ronin_black_co_olive.paa"};
 	};
 	class HiddenIsles_Donator_UbiciUtilityPouch: ALV_Pouch_Utility_Black
 	{
@@ -99,21 +99,21 @@ class CfgVehicles
 		displayName = "Ubici's Utility Pouch";
 		descriptionShort = "[DONATOR ITEM] Ubici";
 		hiddenSelections[] = {"zbytek"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\spritus_pouches_black_co_olive.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\spritus_pouches_black_co_olive.paa"};
 	};
 	class HiddenIsles_Donator_UbiciBelt: ALV_Smersh_Black
 	{
 		scope = 2;
 		displayName = "Ubici's Belt";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\smersh_olive_co.paa","HIRP_Donator\donator\ubici\data\pouches_olive_co.paa","HIRP_Donator\donator\ubici\data\dropleg_belt_olive_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\smersh_olive_co.paa","HiddenIsles_Donator\donator\ubici\data\pouches_olive_co.paa","HiddenIsles_Donator\donator\ubici\data\dropleg_belt_olive_co.paa"};
 	};
 	class HiddenIsles_Donator_UbiciBag: FOG_Bag_Trizip_Black
 	{
 		scope = 2;
 		displayName = "Ubici's Trizip Bag";
 		descriptionShort = "[DONATOR ITEM] Ubici";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ubici\data\trizip_black_co_olive.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ubici\data\trizip_black_co_olive.paa"};
 	};
 	// ------------------------------------------------------------------
 	// Ubici Gorka / Smersh retextures (new classes; existing classes unchanged)
@@ -129,8 +129,8 @@ class CfgVehicles
 		// camo_pants, camo_pads
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\gorka_pants_winter_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\gorka_pants_pads_winter_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\gorka_pants_winter_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\gorka_pants_pads_winter_camo_co.paa"
 		};
 	};
 	class Ubici_Gorka_Pants_Camo: FOG_Gorka_Pants_ColorBase
@@ -141,8 +141,8 @@ class CfgVehicles
 		// camo_pants, camo_pads
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\gorka_pants_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\gorka_pants_pads_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\gorka_pants_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\gorka_pants_pads_camo_co.paa"
 		};
 	};
 	class Ubici_Gorka_Jacket_WinterCamo: FOG_Gorka_Jacket_ColorBase
@@ -153,8 +153,8 @@ class CfgVehicles
 		// camo_shirt, camo_pads
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\gorka_jacket_winter_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\gorka_jacket_pads_winter_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\gorka_jacket_winter_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\gorka_jacket_pads_winter_camo_co.paa"
 		};
 	};
 	class Ubici_Gorka_Jacket_Camo: FOG_Gorka_Jacket_ColorBase
@@ -165,8 +165,8 @@ class CfgVehicles
 		// camo_shirt, camo_pads
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\gorka_jacket_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\gorka_jacket_pads_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\gorka_jacket_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\gorka_jacket_pads_camo_co.paa"
 		};
 	};
 	class Ubici_SmershVest_WinterCamo: SmershVest
@@ -177,9 +177,9 @@ class CfgVehicles
 		// camoGround, camoMale, camoFemale
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\smersh_ground_winter_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\smersh_winter_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\smersh_winter_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\smersh_ground_winter_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\smersh_winter_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\smersh_winter_camo_co.paa"
 		};
 	};
 	class Ubici_SmershVest_Camo: SmershVest
@@ -190,9 +190,9 @@ class CfgVehicles
 		// camoGround, camoMale, camoFemale
 		hiddenSelectionsTextures[] =
 		{
-			"HIRP_Donator\donator\ubici\data\smersh_ground_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\smersh_camo_co.paa",
-			"HIRP_Donator\donator\ubici\data\smersh_camo_co.paa"
+			"HiddenIsles_Donator\donator\ubici\data\smersh_ground_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\smersh_camo_co.paa",
+			"HiddenIsles_Donator\donator\ubici\data\smersh_camo_co.paa"
 		};
 	};
 

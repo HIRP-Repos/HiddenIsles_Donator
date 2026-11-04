@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: newdawn  (New Dawn / Sylvester McDowell)
-// Textures: HIRP_Donator\donator\newdawn\data\
+// Textures: HiddenIsles_Donator\donator\newdawn\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -25,27 +25,27 @@ class CfgVehicles
 		scope = 2;
 		displayName = "New Dawn Flag";
 		descriptionShort = "[DONATOR ITEM] New Dawn / Sylvester McDowell";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newdawn\data\flag_newdawn.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newdawn\data\flag_newdawn.paa"};
 	};
 	class HiddenIsles_Donator_NewDawnArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "New Dawn Armband";
 		descriptionShort = "[DONATOR ITEM] New Dawn / Sylvester McDowell";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newdawn\data\upgradedarmband_newdawn.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newdawn\data\upgradedarmband_newdawn.paa"};
 	};
 	class HiddenIsles_Donator_NewDawnBigPatch: FOG_Big_Patch_Base
 	{
 		scope = 2;
 		displayName = "New Dawn Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] New Dawn / Sylvester McDowell";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newdawn\data\bigpatch_newdawn.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newdawn\data\bigpatch_newdawn.paa"};
 	};
 	class HiddenIsles_Donator_NewDawnSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "New Dawn Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] New Dawn / Sylvester McDowell";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\newdawn\data\smallpatch_newdawn.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\newdawn\data\smallpatch_newdawn.paa"};
 	};
 };

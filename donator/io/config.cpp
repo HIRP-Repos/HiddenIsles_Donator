@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: io  (io)
-// Textures: HIRP_Donator\donator\io\data\
+// Textures: HiddenIsles_Donator\donator\io\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Cult of IO Armband";
 		descriptionShort = "Official Armband of the followers of IO";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\io\data\upgradedarmband_io.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\io\data\upgradedarmband_io.paa"};
 	};
 	class HiddenIsles_Seeker_Mask: FOG_Knight_Mask_Black
 	{
 		scope = 2;
 		displayName = "Seeker's Mask";
 		descriptionShort = "The Skull mask worn by The Seeker, one of IO's Chosen";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\io\data\fog_knight_mask_black_cult_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\io\data\fog_knight_mask_black_cult_co.paa"};
 	};
 };

@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: vipers  (Vipers)
-// Textures: HIRP_Donator\donator\vipers\data\
+// Textures: HiddenIsles_Donator\donator\vipers\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Vipers Flag";
 		descriptionShort = "[DONATOR ITEM] Vipers";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\vipers\data\flag_vipers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\vipers\data\flag_vipers.paa"};
 	};
 	class HiddenIsles_Donator_VipersArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Vipers Armband";
 		descriptionShort = "[DONATOR ITEM] Vipers";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\vipers\data\upgradedarmband_vipers.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\vipers\data\upgradedarmband_vipers.paa"};
 	};
 };

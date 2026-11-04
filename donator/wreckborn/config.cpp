@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: wreckborn  (Wreck Born)
-// Textures: HIRP_Donator\donator\wreckborn\data\
+// Textures: HiddenIsles_Donator\donator\wreckborn\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Wreckborn Flag";
 		descriptionShort = "[DONATOR ITEM] Wreck Born";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wreckborn\data\flag_wreckborn.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wreckborn\data\flag_wreckborn.paa"};
 	};
 };

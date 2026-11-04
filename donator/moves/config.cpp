@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: moves  (Moves)
-// Textures: HIRP_Donator\donator\moves\data\
+// Textures: HiddenIsles_Donator\donator\moves\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -26,7 +26,7 @@ class CfgVehicles
 		displayName = "Echos Plate Carrier";
 		descriptionShort = "[DONATOR ITEM] Moves";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moves\data\platecarriervest_moves.paa","HIRP_Donator\donator\moves\data\platecarriervest_moves.paa","HIRP_Donator\donator\moves\data\platecarriervest_moves.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moves\data\platecarriervest_moves.paa","HiddenIsles_Donator\donator\moves\data\platecarriervest_moves.paa","HiddenIsles_Donator\donator\moves\data\platecarriervest_moves.paa"};
 	};
 	class HiddenIsles_Donator_MovesPouch: PlateCarrierPouches
 	{
@@ -34,7 +34,7 @@ class CfgVehicles
 		displayName = "Echo's Vest Pouch";
 		descriptionShort = "[DONATOR ITEM] Moves";
 		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moves\data\pouches_moves.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moves\data\pouches_moves.paa"};
 	};
 	class HiddenIsles_Donator_MovesHolster: PlateCarrierHolster
 	{
@@ -42,13 +42,13 @@ class CfgVehicles
 		displayName = "Echo's Vest Holster";
 		descriptionShort = "[DONATOR ITEM] Moves";
 		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moves\data\holster_moves.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moves\data\holster_moves.paa"};
 	};
 	class HiddenIsles_Donator_GhostMask_Moves: FOG_Ghost_Mask_Black
 	{
 		scope = 2;
 		displayName = "Echo's Mask";
 		descriptionShort = "[DONATOR ITEM] Moves";
-		hiddenSelectionsTextures[] = {"FOG_MOD\Gear\Masks\Ghost_Mask_New\data\balaclava_black_co.paa","HIRP_Donator\donator\moves\data\skull_mask_moves.paa","HIRP_Donator\donator\moves\data\skull_mask_moves.paa"};
+		hiddenSelectionsTextures[] = {"FOG_MOD\Gear\Masks\Ghost_Mask_New\data\balaclava_black_co.paa","HiddenIsles_Donator\donator\moves\data\skull_mask_moves.paa","HiddenIsles_Donator\donator\moves\data\skull_mask_moves.paa"};
 	};
 };

@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: fauna  (August)
-// Textures: HIRP_Donator\donator\fauna\data\
+// Textures: HiddenIsles_Donator\donator\fauna\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "August's Glasses";
 		descriptionShort = "[DONATOR ITEM] August";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\fauna\data\round_glasses_fauna.paa","HIRP_Donator\donator\fauna\data\round_glasses_fauna.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\fauna\data\round_glasses_fauna.paa","HiddenIsles_Donator\donator\fauna\data\round_glasses_fauna.paa"};
 	};
 };

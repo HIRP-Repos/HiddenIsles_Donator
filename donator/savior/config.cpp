@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: savior  (Savior)
-// Textures: HIRP_Donator\donator\savior\data\
+// Textures: HiddenIsles_Donator\donator\savior\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -32,7 +32,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Savior Upgraded Armband";
 		descriptionShort = "[DONATOR ITEM] Savior";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\upgradedarmband_saviors.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\upgradedarmband_saviors.paa"};
 	};
 	class HiddenIsles_Donator_SaviorFlag: Flag_Base
 	{
@@ -41,7 +41,7 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Savior";
 		color = "Savior";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\flag_saviors.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\flag_saviors.paa"};
 	};
 	class HiddenIsles_Donator_SaviorArmband: Armband_ColorBase
 	{
@@ -50,7 +50,7 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Savior";
 		visibilityModifier = 0.94999999;
 		color = "Savior";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa","HIRP_Donator\donator\savior\data\flag_saviors.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa","HiddenIsles_Donator\donator\savior\data\flag_saviors.paa"};
 	};
 	class HiddenIsles_Donator_SaviorVest: FOG_Vest_Plateframe_ColorBase
 	{
@@ -58,7 +58,7 @@ class CfgVehicles
 		displayName = "Savior Vest";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		hiddenSelections[] = {"camo","camo_comms"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\plateframe_savior_co.paa","HIRP_Donator\donator\savior\data\plateframecomms_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\plateframe_savior_co.paa","HiddenIsles_Donator\donator\savior\data\plateframecomms_savior_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorShirt: FOG_UFJ_Shirt_ColorBase
 	{
@@ -66,7 +66,7 @@ class CfgVehicles
 		displayName = "Savior Shirt";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		hiddenSelections[] = {"camo_base","camo_hood","camo_pads"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\ufj_savior_co.paa","FOG_MOD\Clothes\Shirts\FOG_Urban_Fighter\data\UFJ_Hood_Black_co.paa","FOG_MOD\Clothes\Shirts\FOG_Urban_Fighter\data\UFJ_Pads_Black_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\ufj_savior_co.paa","FOG_MOD\Clothes\Shirts\FOG_Urban_Fighter\data\UFJ_Hood_Black_co.paa","FOG_MOD\Clothes\Shirts\FOG_Urban_Fighter\data\UFJ_Pads_Black_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorPants: FOG_L9_PatagoniaPants_ColorBase
 	{
@@ -75,7 +75,7 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Savior";
 		visibilityModifier = 0.7;
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\pants_patagonia_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\pants_patagonia_savior_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorHeadgear: FOG_Helmet_Exfil_Base
 	{
@@ -83,7 +83,7 @@ class CfgVehicles
 		displayName = "Savior HeadGear";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\tw_exfil_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\tw_exfil_savior_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorMask: FOG_Ghost_Mask_New_ColorBase
 	{
@@ -91,7 +91,7 @@ class CfgVehicles
 		displayName = "Savior Mask";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		hiddenSelections[] = {"camo_balaclava","camo_head","camo_skull"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\balaclava_savior.paa","HIRP_Donator\donator\savior\data\skull_mask_savior.paa","HIRP_Donator\donator\savior\data\skull_mask_savior.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\balaclava_savior.paa","HiddenIsles_Donator\donator\savior\data\skull_mask_savior.paa","HiddenIsles_Donator\donator\savior\data\skull_mask_savior.paa"};
 		hiddenSelectionsMaterials[] = {"FOG_MOD\Gear\Masks\Ghost_Mask_New\data\balaclava.rvmat","FOG_MOD\Gear\Masks\Ghost_Mask_New\data\skull_mask_cloth.rvmat","FOG_MOD\Gear\Masks\Ghost_Mask_New\data\skull_mask.rvmat"};
 	};
 	class HiddenIsles_Donator_SaviorGloves: FOG_GunGloves_ColorBase
@@ -101,7 +101,7 @@ class CfgVehicles
 		descriptionShort = "[DONATOR ITEM] Savior";
 		visibilityModifier = 0.8;
 		hiddenSelections[] = {"camo","personality"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\gunglove_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\gunglove_savior_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorShoes: JungleBoots_ColorBase
 	{
@@ -109,7 +109,7 @@ class CfgVehicles
 		displayName = "Savior Shoes";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		visibilityModifier = 0.69999999;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\jungleboots_savior_co.paa","HIRP_Donator\donator\savior\data\jungleboots_savior_co.paa","HIRP_Donator\donator\savior\data\jungleboots_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\jungleboots_savior_co.paa","HiddenIsles_Donator\donator\savior\data\jungleboots_savior_co.paa","HiddenIsles_Donator\donator\savior\data\jungleboots_savior_co.paa"};
 	};
 	class HiddenIsles_Donator_SaviorBag: FOG_Bag_6ShTBag_ColorBase
 	{
@@ -117,6 +117,6 @@ class CfgVehicles
 		displayName = "Savior Bag";
 		descriptionShort = "[DONATOR ITEM] Savior";
 		hiddenSelections[] = {"camoflage"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\savior\data\6sh118t_savior_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\savior\data\6sh118t_savior_co.paa"};
 	};
 };

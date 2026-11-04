@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: moseby  (Jonas Moseby)
-// Textures: HIRP_Donator\donator\moseby\data\
+// Textures: HiddenIsles_Donator\donator\moseby\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -24,20 +24,20 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Moseby's FRACU Pants";
 		descriptionShort = "[DONATOR ITEM] Jonas Moseby";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moseby\data\fracu_trousers_moseby.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moseby\data\fracu_trousers_moseby.paa"};
 	};
 	class HiddenIsles_Donator_MosebyShirt: FOG_Crye_G3_Shirt_Black
 	{
 		scope = 2;
 		displayName = "Moseby's Crye G3 Shirt";
 		descriptionShort = "[DONATOR ITEM] Jonas Moseby";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moseby\data\g3_combatshirt_moseby.paa","HIRP_Donator\donator\moseby\data\cuffs_moseby.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moseby\data\g3_combatshirt_moseby.paa","HiddenIsles_Donator\donator\moseby\data\cuffs_moseby.paa"};
 	};
 	class HiddenIsles_Donator_MosebyWatchCap: FOG_Watchcap_Grey
 	{
 		scope = 2;
 		displayName = "Moseby's Watch Cap";
 		descriptionShort = "[DONATOR ITEM] Jonas Moseby";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\moseby\data\watchcap_moseby.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\moseby\data\watchcap_moseby.paa"};
 	};
 };

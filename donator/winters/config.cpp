@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: winters  (Winters Cartel)
-// Textures: HIRP_Donator\donator\winters\data\
+// Textures: HiddenIsles_Donator\donator\winters\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Winters Cartel Armband";
 		descriptionShort = "[DONATOR ITEM] Winters Cartel";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\winters\data\upgradedarmband_winters.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\winters\data\upgradedarmband_winters.paa"};
 	};
 	class HiddenIsles_Donator_WintersFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Winters Cartel Flag";
 		descriptionShort = "[DONATOR ITEM] Winters Cartel";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\winters\data\irp_winters_flag.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\winters\data\irp_winters_flag.paa"};
 	};
 };

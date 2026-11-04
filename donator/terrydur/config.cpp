@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: terrydur  (Terry/Dur)
-// Textures: HIRP_Donator\donator\terrydur\data\
+// Textures: HiddenIsles_Donator\donator\terrydur\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Dur's Camo Parka";
 		descriptionShort = "[DONATOR ITEM] Terry/Dur";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\terrydur\data\citizen_parka_terry.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\terrydur\data\citizen_parka_terry.paa"};
 	};
 	class HiddenIsles_Donator_TerryPants: ALV_WW2Pants_Classic
 	{
 		scope = 2;
 		displayName = "Dur's Camo Pants";
 		descriptionShort = "[DONATOR ITEM] Terry/Dur";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\terrydur\data\ww2_pants_terry.paa","HIRP_Donator\donator\terrydur\data\ww2_pants_terry.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\terrydur\data\ww2_pants_terry.paa","HiddenIsles_Donator\donator\terrydur\data\ww2_pants_terry.paa"};
 	};
 };

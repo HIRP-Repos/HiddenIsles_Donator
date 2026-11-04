@@ -5,7 +5,7 @@ Donator retextures for Hidden Isles RP. One PBO, prefix `HIRP_Donator`.
 ## Layout
 
 ```
-HIRP_Donator\
+HiddenIsles_Donator\
   $PBOPREFIX$              HIRP_Donator
   config.cpp               HIRP_Donator_Core (every donator patch requires it)
   donator\
@@ -42,7 +42,7 @@ folder removes that donator cleanly.
    - patch name `HIRP_Donator_<Folder>`
    - every scope=2 class in `units[]`
    - `descriptionShort = "[DONATOR ITEM] <Owner>"`
-   - texture paths `HIRP_Donator\donator\<folder>\data\<file>.paa`
+   - texture paths `HiddenIsles_Donator\donator\<folder>\data\<file>.paa`
 4. Run `P:\HIRP_Donator_Tools\validate.bat`. It tells you:
    - which patch to add to `requiredAddons` for each base class
    - texture paths that don't exist

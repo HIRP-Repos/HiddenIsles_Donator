@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: ravenhurst  (Ravenhurst)
-// Textures: HIRP_Donator\donator\ravenhurst\data\
+// Textures: HiddenIsles_Donator\donator\ravenhurst\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Ravenhurst Armband";
 		descriptionShort = "[DONATOR ITEM] Ravenhurst";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\ravenhurst\data\upgradedarmband_ravenhurst.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\ravenhurst\data\upgradedarmband_ravenhurst.paa"};
 	};
 };

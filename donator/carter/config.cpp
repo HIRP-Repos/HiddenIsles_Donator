@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: carter  (Carter / MR W)
-// Textures: HIRP_Donator\donator\carter\data\
+// Textures: HiddenIsles_Donator\donator\carter\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Mr W Balaclava";
 		descriptionShort = "[DONATOR ITEM] Carter / MR W";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\carter\data\wmd_keegan_balaclava4.paa","HIRP_Donator\donator\carter\data\wmd_keegan_balaclava4.paa","HIRP_Donator\donator\carter\data\wmd_keegan_balaclava4.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\carter\data\wmd_keegan_balaclava4.paa","HiddenIsles_Donator\donator\carter\data\wmd_keegan_balaclava4.paa","HiddenIsles_Donator\donator\carter\data\wmd_keegan_balaclava4.paa"};
 	};
 };

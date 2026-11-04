@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: dayton  (Dayton)
-// Textures: HIRP_Donator\donator\dayton\data\
+// Textures: HiddenIsles_Donator\donator\dayton\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Dayton Mask";
 		descriptionShort = "[DONATOR ITEM] Dayton";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\dayton\data\m50_dayton_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\dayton\data\m50_dayton_co.paa"};
 	};
 };

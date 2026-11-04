@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: geister  (Geister Bataillon / Vicious)
-// Textures: HIRP_Donator\donator\geister\data\
+// Textures: HiddenIsles_Donator\donator\geister\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Dr. Neumann's Labcoat";
 		descriptionShort = "[DONATOR ITEM] Geister Bataillon / Vicious";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\geister\data\geisterbataillonlabcoat.paa","HIRP_Donator\donator\geister\data\geisterbataillonlabcoat.paa","HIRP_Donator\donator\geister\data\geisterbataillonlabcoat.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\geister\data\geisterbataillonlabcoat.paa","HiddenIsles_Donator\donator\geister\data\geisterbataillonlabcoat.paa","HiddenIsles_Donator\donator\geister\data\geisterbataillonlabcoat.paa"};
 	};
 };

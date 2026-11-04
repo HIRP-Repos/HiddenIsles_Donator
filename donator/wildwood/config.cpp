@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: wildwood  (Wildwood)
-// Textures: HIRP_Donator\donator\wildwood\data\
+// Textures: HiddenIsles_Donator\donator\wildwood\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -30,14 +30,14 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Wildwood Armband";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\upgradedarmband_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\upgradedarmband_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Wildwood Flag";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\flag_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\flag_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodHeadgear: ALV_Beanie_Colorbase
 	{
@@ -45,42 +45,42 @@ class CfgVehicles
 		displayName = "Wildwood Cap";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
 		headSelectionsToHide[] = {"Clipping_baseballcap"};
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\alv_beanie_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\alv_beanie_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodBag_6ShBagT: FOG_Bag_6ShTBag_ColorBase
 	{
 		scope = 2;
 		displayName = "Wildwood 6ShBagT Bag";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\lbt_black_co_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\lbt_black_co_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodBag_LBT1475A: FOG_Bag_LBT1475A_ColorBase
 	{
 		scope = 2;
 		displayName = "Wildwood LBT1475A Bag";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\lbt_black_co_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\lbt_black_co_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodMask: FOG_HalfMask_ColorBase
 	{
 		scope = 2;
 		displayName = "Wildwood Mask";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\halfmask_black_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\halfmask_black_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodJacket: FOG_Jacket_SoftShell_ColorBase
 	{
 		scope = 2;
 		displayName = "Wildwood Jacket";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\fog_softshell_blk_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\fog_softshell_blk_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodShoes: FOG_Lerch_Boots_ColorBase
 	{
 		scope = 2;
 		displayName = "Wildwood Boots";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\lerchboots_black_wildwood.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\lerchboots_black_wildwood.paa"};
 	};
 	class HiddenIsles_Donator_WildwoodGloves: FOG_Tactical_Fingerless_Gloves_ColorBase
 	{
@@ -88,6 +88,6 @@ class CfgVehicles
 		displayName = "Wildwood Gloves";
 		descriptionShort = "[DONATOR ITEM] Wildwood";
 		visibilityModifier = 0.8;
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\wildwood\data\fingerless_tactical_black_wildwood.paa",""};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\wildwood\data\fingerless_tactical_black_wildwood.paa",""};
 	};
 };

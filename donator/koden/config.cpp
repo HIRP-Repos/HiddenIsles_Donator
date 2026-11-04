@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: koden  (Koden, Koden/Smoke, Torchivik Holdings)
-// Textures: HIRP_Donator\donator\koden\data\
+// Textures: HiddenIsles_Donator\donator\koden\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -30,69 +30,69 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Koden's Plague Mask";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\plaguemask_koden.paa","HIRP_Donator\donator\koden\data\plaguemask_koden.paa","HIRP_Donator\donator\koden\data\plaguemask_koden.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\plaguemask_koden.paa","HiddenIsles_Donator\donator\koden\data\plaguemask_koden.paa","HiddenIsles_Donator\donator\koden\data\plaguemask_koden.paa"};
 	};
 	class HiddenIsles_Donator_KodenVest: FOG_Vest_AVS_Black
 	{
 		scope = 2;
 		displayName = "Holdings Vest";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\avs_a_holdings.paa","HIRP_Donator\donator\koden\data\avs_a_holdings.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\avs_a_holdings.paa","HiddenIsles_Donator\donator\koden\data\avs_a_holdings.paa"};
 	};
 	class HiddenIsles_Donator_SmodenVest: FOG_Vest_Thor_Black
 	{
 		scope = 2;
 		displayName = "Smoden Vest";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\irp_vest_thor_smoden.paa","HIRP_Donator\donator\koden\data\irp_vest_thor_smoden.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\irp_vest_thor_smoden.paa","HiddenIsles_Donator\donator\koden\data\irp_vest_thor_smoden.paa"};
 	};
 	class HiddenIsles_Donator_SmodenVest2: FOG_Vest_Thor_Black
 	{
 		scope = 2;
 		displayName = "Smoden Vest";
 		descriptionShort = "[DONATOR ITEM] Koden/Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\irp_vest_thor_smoden2.paa","HIRP_Donator\donator\koden\data\irp_vest_thor_smoden2.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\irp_vest_thor_smoden2.paa","HiddenIsles_Donator\donator\koden\data\irp_vest_thor_smoden2.paa"};
 	};
 	class HiddenIsles_Donator_KodenHoodedParka: FOG_Hooded_Parka_Black
 	{
 		scope = 2;
 		displayName = "Koden's Hooded Parka";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\hoodedparka_koden.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\hoodedparka_koden.paa"};
 	};
 	class HiddenIsles_Donator_KodenGloves: FOG_MechanixGloves_Skele
 	{
 		scope = 2;
 		displayName = "Koden's Skeleton Gloves";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\mechanixgloves_koden.paa","HIRP_Donator\donator\koden\data\mechanixgloves_koden.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\mechanixgloves_koden.paa","HiddenIsles_Donator\donator\koden\data\mechanixgloves_koden.paa"};
 	};
 	class HiddenIsles_Donator_KodenBoots: MilitaryBoots_Redpunk
 	{
 		scope = 2;
 		displayName = "Koden's Anarchy Boots";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\militaryboots_koden.paa","HIRP_Donator\donator\koden\data\militaryboots_koden.paa","HIRP_Donator\donator\koden\data\militaryboots_koden.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\militaryboots_koden.paa","HiddenIsles_Donator\donator\koden\data\militaryboots_koden.paa","HiddenIsles_Donator\donator\koden\data\militaryboots_koden.paa"};
 	};
 	class HiddenIsles_Donator_KodenPants: FOG_Gorka_Pants_ColorBase
 	{
 		scope = 2;
 		displayName = "Koden's Gorka Pants";
 		descriptionShort = "[DONATOR ITEM] Koden";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\koden_pants.paa","HIRP_Donator\donator\koden\data\koden_pants.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\koden_pants.paa","HiddenIsles_Donator\donator\koden\data\koden_pants.paa"};
 	};
 	class HiddenIsles_Donator_HoldingsFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Torchivik Holdings Flag";
 		descriptionShort = "[DONATOR ITEM] Torchivik Holdings";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\flag_holdings.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\flag_holdings.paa"};
 	};
 	class HiddenIsles_Donator_HoldingsArmband: ALV_UpgradedArmband_Black
 	{
 		scope = 2;
 		displayName = "Torchivik Holdings Armband";
 		descriptionShort = "[DONATOR ITEM] Torchivik Holdings";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\koden\data\upgradedarmband_holdings.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\koden\data\upgradedarmband_holdings.paa"};
 	};
 };

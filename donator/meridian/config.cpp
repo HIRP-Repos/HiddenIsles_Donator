@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: meridian  (Meridian)
-// Textures: HIRP_Donator\donator\meridian\data\
+// Textures: HiddenIsles_Donator\donator\meridian\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -25,62 +25,62 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Meridian Armband";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\upgradedarmband_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\upgradedarmband_meridian.paa"};
 	};
 	class HiddenIsles_Donator_MeridianFlag: Flag_White
 	{
 		scope = 2;
 		displayName = "Meridian Flag";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\flag_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\flag_meridian.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_Vest_Black: FOG_Vest_MMAC_Base
 	{
 		scope = 2;
 		displayName = "Meridian Vest";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\mmac_black_meridian_co.paa","FOG_MOD\Vests\FOG_AVS\data\Radio_PTT_CB_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\mmac_black_meridian_co.paa","FOG_MOD\Vests\FOG_AVS\data\Radio_PTT_CB_co.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_Vest_Grey: FOG_Vest_MMAC_Base
 	{
 		scope = 2;
 		displayName = "Meridian Vest";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\mmac_grey_meridian_co.paa","FOG_MOD\Vests\FOG_AVS\data\Radio_PTT_CB_co.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\mmac_grey_meridian_co.paa","FOG_MOD\Vests\FOG_AVS\data\Radio_PTT_CB_co.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_TShirt_Black: FOG_Tshirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Meridian Shirt";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\fog_tshirt_black_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\fog_tshirt_black_meridian.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_TShirt_Grey: FOG_Tshirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Meridian Shirt";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\fog_tshirt_grey_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\fog_tshirt_grey_meridian.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_TShirt_White: FOG_Tshirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Meridian Shirt";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\fog_tshirt_white_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\fog_tshirt_white_meridian.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_TShirt_Red: FOG_Tshirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Meridian Shirt";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\fog_tshirt_red_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\fog_tshirt_red_meridian.paa"};
 	};
 	class HiddenIsles_Donator_Meridian_TShirt_Blue: FOG_Tshirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Meridian Shirt";
 		descriptionShort = "[DONATOR ITEM] Meridian";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\meridian\data\fog_tshirt_blue_meridian.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\meridian\data\fog_tshirt_blue_meridian.paa"};
 	};
 };

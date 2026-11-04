@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: alexander  (Alexander Adams, Alexander Adams / 310th, Alexander)
-// Textures: HIRP_Donator\donator\alexander\data\
+// Textures: HiddenIsles_Donator\donator\alexander\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -30,62 +30,62 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Alexander's Ski Goggles";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\skigoggles_alexander.paa","HIRP_Donator\donator\alexander\data\skigoggles_alexander.paa","HIRP_Donator\donator\alexander\data\skigoggles_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\skigoggles_alexander.paa","HiddenIsles_Donator\donator\alexander\data\skigoggles_alexander.paa","HiddenIsles_Donator\donator\alexander\data\skigoggles_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderSurgicalGloves: surgicalgloves_white
 	{
 		scope = 2;
 		displayName = "Alexander's Surgical Gloves";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\surgicalgloves_alexander.paa","HIRP_Donator\donator\alexander\data\surgicalgloves_alexander.paa","HIRP_Donator\donator\alexander\data\surgicalgloves_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\surgicalgloves_alexander.paa","HiddenIsles_Donator\donator\alexander\data\surgicalgloves_alexander.paa","HiddenIsles_Donator\donator\alexander\data\surgicalgloves_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderHelmet: ballistichelmet_bdu
 	{
 		scope = 2;
 		displayName = "Alexander's Camo Helmet";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\camohelmet_alexander.paa","HIRP_Donator\donator\alexander\data\camohelmet_alexander.paa","HIRP_Donator\donator\alexander\data\camohelmet_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\camohelmet_alexander.paa","HiddenIsles_Donator\donator\alexander\data\camohelmet_alexander.paa","HiddenIsles_Donator\donator\alexander\data\camohelmet_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderBelt: FOG_MRB_Belt_Black
 	{
 		scope = 2;
 		displayName = "Alexander's MRB Belt";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\mrb_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\mrb_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderG3Shirt: FOG_Crye_G3_Shirt_Black
 	{
 		scope = 2;
 		displayName = "Alexander's G3 Combat Shirt";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\g3_combatshirt_alexander.paa","HIRP_Donator\donator\alexander\data\g3_combatshirt_alexander.paa","HIRP_Donator\donator\alexander\data\g3_combatshirt_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\g3_combatshirt_alexander.paa","HiddenIsles_Donator\donator\alexander\data\g3_combatshirt_alexander.paa","HiddenIsles_Donator\donator\alexander\data\g3_combatshirt_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderVest: FOG_Vest_MMAC_MC
 	{
 		scope = 2;
 		displayName = "Alexander's MMAC Vest";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\mmac_alexander.paa","HIRP_Donator\donator\alexander\data\mmac_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\mmac_alexander.paa","HiddenIsles_Donator\donator\alexander\data\mmac_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderPants: CargoPants_ColorBase
 	{
 		scope = 2;
 		displayName = "Alexander's Cargo Pants";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\cargopants_alexander.paa","HIRP_Donator\donator\alexander\data\cargopants_alexander.paa","HIRP_Donator\donator\alexander\data\cargopants_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\cargopants_alexander.paa","HiddenIsles_Donator\donator\alexander\data\cargopants_alexander.paa","HiddenIsles_Donator\donator\alexander\data\cargopants_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AlexanderSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "Alexander Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Alexander Adams / 310th";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\smallpatch_alexander.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\smallpatch_alexander.paa"};
 	};
 	class HiddenIsles_Donator_AdamsVest: FOG_Vest_Thor_Black
 	{
 		scope = 2;
 		displayName = "Alexander's Vest";
 		descriptionShort = "[DONATOR ITEM] Alexander";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\alexander\data\thor_black_adams.paa","HIRP_Donator\donator\alexander\data\thor_black_adams.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\alexander\data\thor_black_adams.paa","HiddenIsles_Donator\donator\alexander\data\thor_black_adams.paa"};
 	};
 };

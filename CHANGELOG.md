@@ -5,7 +5,7 @@
 No classnames were renamed. Existing worn and stashed items keep working.
 
 ### Structure
-- Added `$PBOPREFIX$` (`HIRP_Donator`). All 538 texture paths now use that prefix. Before, 534 used `HiddenIsles_Donator\` and 4 used `HIRP_Donator\`, so some textures broke with either prefix.
+- Added `$PBOPREFIX$` (`HIRP_Donator`). All 538 texture paths now use that prefix. Before, 534 used `HiddenIsles_Donator\` and 4 used `HiddenIsles_Donator\`, so some textures broke with either prefix.
 - One `config.cpp` and one `CfgPatches` per donator folder: `HIRP_Donator_<Folder>`. All of them require `HIRP_Donator_Core`, defined in the root config.
 - Split the 152-item `donator\config.cpp` into one folder per donator.
 - Merged the nested goblin_mod configs (10 files) into `donator\310`.

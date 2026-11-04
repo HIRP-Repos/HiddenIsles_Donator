@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: reaper  (Reaper)
-// Textures: HIRP_Donator\donator\reaper\data\
+// Textures: HiddenIsles_Donator\donator\reaper\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -23,13 +23,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Reaper's Polo Shirt";
 		descriptionShort = "[DONATOR ITEM] Reaper";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\reaper\data\polo_reaper.paa","HIRP_Donator\donator\reaper\data\polo_reaper.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\reaper\data\polo_reaper.paa","HiddenIsles_Donator\donator\reaper\data\polo_reaper.paa"};
 	};
 	class HiddenIsles_Donator_ReaperMask: FOG_Ghost_Mask_Black
 	{
 		scope = 2;
 		displayName = "Reaper's Mask";
 		descriptionShort = "[DONATOR ITEM] Reaper";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\reaper\data\balaclava_reaper.paa","HIRP_Donator\donator\reaper\data\skull_mask_reaper.paa","HIRP_Donator\donator\reaper\data\skull_mask_reaper.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\reaper\data\balaclava_reaper.paa","HiddenIsles_Donator\donator\reaper\data\skull_mask_reaper.paa","HiddenIsles_Donator\donator\reaper\data\skull_mask_reaper.paa"};
 	};
 };

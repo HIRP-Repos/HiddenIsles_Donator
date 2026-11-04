@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: atomic  (Atomic/Daz)
-// Textures: HIRP_Donator\donator\atomic\data\
+// Textures: HiddenIsles_Donator\donator\atomic\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -22,6 +22,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Daz's Denim Jacket";
 		descriptionShort = "[DONATOR ITEM] Atomic/Daz";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\atomic\data\denimjacket_atomic.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\atomic\data\denimjacket_atomic.paa"};
 	};
 };

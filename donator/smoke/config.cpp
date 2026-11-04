@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------
 // Donator: smoke  (Smoke)
-// Textures: HIRP_Donator\donator\smoke\data\
+// Textures: HiddenIsles_Donator\donator\smoke\data\
 // Classnames are persistent (worn/stashed items, types.xml): never rename them.
 // ----------------------------------------------------------------------
 class CfgPatches
@@ -26,34 +26,34 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Smoke Big FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\smoke\data\bigpatch_smoke.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\smoke\data\bigpatch_smoke.paa"};
 	};
 	class HiddenIsles_Donator_SmokeSmallPatch: FOG_Small_Patch_Base
 	{
 		scope = 2;
 		displayName = "Smoke Small FOG Patch";
 		descriptionShort = "[DONATOR ITEM] Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\smoke\data\smallpatch_smoke.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\smoke\data\smallpatch_smoke.paa"};
 	};
 	class HiddenIsles_Donator_SmokeALVPatch: ALV_Patch_USA
 	{
 		scope = 2;
 		displayName = "Smoke ALV Patch";
 		descriptionShort = "[DONATOR ITEM] Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\smoke\data\patch_smoke.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\smoke\data\patch_smoke.paa"};
 	};
 	class HiddenIsles_Donator_SmokeMask: SFP_TacticalMask_Base
 	{
 		scope = 2;
 		displayName = "Smoke's Tactical Mask";
 		descriptionShort = "[DONATOR ITEM] Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\smoke\data\tacticalmask_smoke.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\smoke\data\tacticalmask_smoke.paa"};
 	};
 	class HiddenIsles_Donator_SmokeBeanie: FOG_Fleececap_ColorBase
 	{
 		scope = 2;
 		displayName = "Smoke's Fleece Cap";
 		descriptionShort = "[DONATOR ITEM] Smoke";
-		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\smoke\data\fleececap_smoke.paa"};
+		hiddenSelectionsTextures[] = {"HiddenIsles_Donator\donator\smoke\data\fleececap_smoke.paa"};
 	};
 };
