@@ -1,16 +1,16 @@
 # HIRP_Donator
 
-Donator retextures for Hidden Isles RP. One PBO, prefix `HIRP_Donator`.
+Donator retextures for Hidden Isles RP. One PBO, prefix `HiddenIsles_Donator`.
 
 ## Layout
 
 ```
-HiddenIsles_Donator\
-  $PBOPREFIX$              HIRP_Donator
-  config.cpp               HIRP_Donator_Core (every donator patch requires it)
+Hiddenisles_Donator\
+  $PBOPREFIX$              HiddenIsles_Donator
+  config.cpp               HiddenIsles_Donator_Core (every donator patch requires it)
   donator\
     <folder>\
-      config.cpp           CfgPatches HIRP_Donator_<Folder> + that donator's items
+      config.cpp           CfgPatches HiddenIsles_Donator_<Folder> + that donator's items
       data\*.paa           that donator's textures (lowercase names)
     _shared\data\          textures used by more than one donator
   README.md, CHANGELOG.md
@@ -30,7 +30,7 @@ P:\HIRP_Donator_Tools\
 ```
 
 Each donator folder is self-contained. Its `config.cpp` defines one
-`CfgPatches` that lists `HIRP_Donator_Core` and the exact patches its base
+`CfgPatches` that lists `HiddenIsles_Donator_Core` and the exact patches its base
 classes come from, so adding a folder never touches another, and deleting a
 folder removes that donator cleanly.
 
@@ -39,7 +39,7 @@ folder removes that donator cleanly.
 1. Create `donator\<folder>\` (lowercase, no spaces) and `donator\<folder>\data\`.
 2. Drop the `.paa` files in `data\`, named `<item>_<folder>[_<variant>]_co.paa`, all lowercase.
 3. Copy `P:\HIRP_Donator_Tools\template\config.template` to `donator\<folder>\config.cpp` and fill it in:
-   - patch name `HIRP_Donator_<Folder>`
+   - patch name `HiddenIsles_Donator<Folder>`
    - every scope=2 class in `units[]`
    - `descriptionShort = "[DONATOR ITEM] <Owner>"`
    - texture paths `HiddenIsles_Donator\donator\<folder>\data\<file>.paa`
@@ -56,7 +56,7 @@ folder's `config.cpp`, add it to `units[]`, then validate.
 
 ### Naming for new items
 
-- Classes: `HIRP_Donator_<Folder>_<Item>[_<Variant>]`, e.g. `HIRP_Donator_Koden_Vest_Black`.
+- Classes: `Hiddenisles_Donator_<Folder>_<Item>[_<Variant>]`, e.g. `HiddenIsles_Donator_Koden_Vest_Black`.
 - Textures: lowercase, `_co` suffix, inside the donator's own `data\`.
 
 ### Never rename an existing class
