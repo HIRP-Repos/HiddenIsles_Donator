@@ -24,6 +24,7 @@ class CfgVehicles
 		displayName = "Obsidian Armband";
 		descriptionShort = "[DONATOR ITEM] Obsidian Guard";
 		hiddenSelectionsTextures[] = {"HIRP_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
+		hiddenSelectionsMaterial[] = {"HIRP_Donator\donator\obsidianguard\data\armband_obsidian_co.paa"};
 	};
 	class HiddenIsles_Donator_ObsidianFlag: Flag_White
 	{
