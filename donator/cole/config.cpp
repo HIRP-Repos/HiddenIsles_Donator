@@ -22,6 +22,7 @@ class CfgVehicles
 	class FOG_GunGloves_Black;
 	class FOG_Bag_6ShBagT_Black;
 	class SFP_TacticalMask_Base;
+	
 	class HiddenIsles_Donator_ColePants: FOG_Gorka_Pants_Black
 	{
 		scope = 2;
